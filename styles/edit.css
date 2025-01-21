@@ -253,7 +253,7 @@ color: #0E0E0E;
 .news{
     padding: 160px;
     text-align: justify;
-    margin: 0 auto ;
+    margin: 0 0 ;
 }
 
 /* about  */
@@ -293,7 +293,7 @@ color: #0E0E0E;
     
 }
 
-.about-four{
+.about-four{ 
     background-color: #FFFFFF;
     border-radius: 24px;
 }
@@ -302,18 +302,70 @@ color: #0E0E0E;
     display: flex;
     gap: 32px;
     padding: 48px;
-}
-
-
-
-.sat-img{
+    margin: 32px 160px;
+    background-color: #FFFFFF;
     border-radius: 24px;
-    padding: 48px;
-   
-}
-
-.sat-styles{
-    border-radius: 24px;
-    padding: 160px;
     box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+}
+
+
+
+.satelite{
+  border-radius: 24px;
+  margin: 48px 48px 32px 48px;
+}
+.somoy{
+  gap: 12px;
+  display: flex;
+}
+
+.satelite-2{
+  display: flex;
+}
+
+.card-2{
+  padding: 56px 56px 32px 48px;
+  gap: 32px;
+}
+
+.Donate{
+
+  padding: 0 248px 0px 248px;
+  text-align: center;
+  max-width: 1104px;
+  margin-left: 160px;
+  
+}
+
+
+/* . money-box styles  */
+
+ .money-box{
+font-size: 40px;
+  display: flex;
+  gap: 24px;
+  padding: 40px;
+  justify-content: space-between;
+  
+ 
+ 
+}
+
+
+.text{
+
+  background-color: #FFFFFF;
+  display: block;
+  width: 1030px;
+  height: 64px;
+  padding: 20px 421px;
+  margin: 32px 410px 32px 410px;
+  
+}
+
+.done{
+justify-content: space-between;
+
+  margin-left: 160px;
+  margin-right: 160px;
 }
